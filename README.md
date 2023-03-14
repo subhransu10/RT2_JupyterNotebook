@@ -91,7 +91,7 @@ des_pos_y=widgets.FloatText(
     disabled=False
 )
 ```
-### Create publishers for changing the modality and sending goal coordinates
+### 2.Create publishers for changing the modality and sending goal coordinates
 ```python
 pubModality=rospy.Publisher('mode',Int32,queue_size=10) #publisher of 'mode' topic, sends user choice to other nodes
 pubGoalPos=rospy.Publisher('goalpos',Vector3,queue_size=10) #publisher of 'goalpos' topic, sends the desired position
@@ -99,7 +99,7 @@ x=0.0
 y=0.0
 goals=[]
 ```
-### Description of the code for the Graphical Representation of the Robot's Odometry & Laser Scanner
+### 3.Description of the code for the Graphical Representation of the Robot's Odometry & Laser Scanner
 The function below shows the plotting of the data of the __robot's odometry__ and __laser scanner__.
 ```python
 colors=[]
