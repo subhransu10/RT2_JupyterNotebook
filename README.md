@@ -119,7 +119,10 @@ subStatus=rospy.Subscriber('/move_base/status',GoalStatusArray,vis.clbk_status) 
 subGoal=rospy.Subscriber('/move_base/goal',MoveBaseActionGoal,vis.clbk_goal) #subscription to '/move_base/goal' topic
 ```
 ## RESULTS
-Below is the graphical representation of the robot's behavior during the Simulation.The graph at the top represents the laser scan on a polar graph representation whwereas the second graph represents the position described by the odometry topic of the robot. The graph showsthe position of the robot in space with red dots.(https://github.com/subhransu10/RT2_JupyterNotebook/blob/main/results.png)
+Below is the graphical representation of the robot's behavior during the Simulation.The graph at the top represents the laser scan on a polar graph representation whwereas the second graph represents the position described by the odometry topic of the robot. The graph shows the position of the robot in space with red dots.
+
+
+![](results.png)
 
 ## CONCLUSION AND SCOPE OF IMPROVEMENT
 
